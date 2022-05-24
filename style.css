@@ -1,6 +1,8 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
+    background: url('https://media3.giphy.com/media/S6YwuAjT2yCBNE25Ys/giphy.gif');
+    background-size: cover;
 }
 
 canvas {
