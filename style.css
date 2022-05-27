@@ -8,3 +8,31 @@ body {
 canvas {
     display: block;
 }
+
+div {
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: xxx-large;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes rgb {
+    0% {background-color: red;}
+    25% {background-color: green;}
+    50% {background-color: blue;}
+    75% {background-color: yellow;}
+    100% {background-color: red;}
+}
+
+a:hover {
+    animation: rgb;
+    animation-duration: 4s;
+} 
